@@ -1,0 +1,145 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T07:06:26.998Z",
+        "line": 16,
+        "name": "Logins in",
+        "description": "",
+        "id": "login;logins-in;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28181503600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I want to write a step with \"Lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Login1.i_want_to_write_a_step_with(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 765153800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i have to give \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password123\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Login1.i_have_to_give(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 752153400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I give sumbit",
+            "match": {
+              "location": "Login1.i_give_sumbit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Login]\u003e but was:\u003c[Home]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat cs2.Login1.i_login_to_next_page(Login1.java:48)\r\n\tat ✽.I login to next page(classpath:cs2/Cs2.feature:7)\r\n",
+              "duration": 14877700,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "I login to next page",
+            "match": {
+              "location": "Login1.i_login_to_next_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "clicks the search tab \u0026 enters the first four letters of the product",
+            "match": {
+              "location": "Login1.clicks_the_search_tab_enters_the_first_four_letters_of_the_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "selects product from drop down",
+            "match": {
+              "location": "Login1.selects_product_from_drop_down()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20100,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "clicks on find details",
+            "match": {
+              "location": "Login1.clicks_on_find_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33900,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "adds the product to cart",
+            "match": {
+              "location": "Login1.adds_the_product_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11400,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user should be in add to cart page",
+            "match": {
+              "location": "Login1.user_should_be_in_add_to_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:cs2/Cs2.feature",
+    "tags": []
+  }
+]

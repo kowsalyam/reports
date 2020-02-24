@@ -1,0 +1,264 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T07:07:32.604Z",
+        "line": 3,
+        "name": "New user reg",
+        "description": "",
+        "id": "register;new-user-reg",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32100747100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "url",
+            "match": {
+              "location": "Cs1code.url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 211687500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter the username \"mkmkmk11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mkmkmk11\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Cs1code.enter_the_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181886800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter the firstname \"mahi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mahi\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Cs1code.enter_the_firstname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126048200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the lastname \"zintha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"zintha\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Cs1code.enter_the_lastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201078900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter the password \"password1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password1234\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Cs1code.enter_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194482900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter the confirm password \"password1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password1234\"",
+                  "offset": 27
+                }
+              ],
+              "location": "Cs1code.enter_the_confirm_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123576400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter the gender Female",
+            "match": {
+              "location": "Cs1code.enter_the_gender_Female()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 310975400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter the email \"kowsalyamath12i@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kowsalyamath12i@gmail.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Cs1code.enter_the_email(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169292300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter the  mobile \"7896554453\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7896554453\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Cs1code.enter_the_mobile(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193742000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enter the dob \"08/08/1993\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"08/08/1993\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Cs1code.enter_the_dob(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199185100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enter the address \"chennaivelachery\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chennaivelachery\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Cs1code.enter_the_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 216628100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i click the security question",
+            "match": {
+              "location": "Cs1code.i_click_the_security_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156017400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "i give security answer \"white\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"white\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Cs1code.i_give_security_answer(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 402983100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "i click register button",
+            "match": {
+              "location": "Cs1code.i_click_register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12159700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "i see my home page",
+            "match": {
+              "location": "Cs1code.i_see_my_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "classpath:cs1/cs1.feature",
+    "tags": []
+  }
+]
